@@ -146,8 +146,8 @@ function Cart(){
             <span>70%!!!</span>
           </p>
         </div>
-        <div className='zov'><input placeholder="Введите ваш e-mail" class="input-zov" name="email" type="email"/>
-   <button onClick={handleClick} class="buttonzov">Подписаться</button> </div>
+        <div className='zov'><input placeholder="Введите купон" class="input-zov" name="email" type="email"/>
+   <button onClick={handleClick} class="buttonzov">Ввести</button> </div>
       </section>
         <Footer/>
       </>      
