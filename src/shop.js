@@ -35,7 +35,7 @@ function Shop() {
     <div id="nav">
       <ul>
         <li>
-        <Link to={`/`}>Главная</Link>
+        <Link to={`/`}>Главна</Link>
         </li>
         <li>
         <Link to={`/shop`}>Каталог</Link>
