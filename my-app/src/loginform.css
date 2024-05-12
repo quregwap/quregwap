@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.big_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  height: 97vh;
+}
+.big_container img {
+  width: 700px;
+  height: 650px;
+}
+.big_container .zzfox {
+  width: 400px;
+  height: 550px;
+  background-color: #3894a3;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 13%) 0px 20px 26px;
+}
+.big_container #check {
+  display: none;
+}
+.big_container .signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.big_container label {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  font-size: 3em;
+  margin: 45px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.big_container input {
+  width: 75%;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  margin: 23px auto;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  border-radius: 30px;
+}
+.big_container input::placeholder {
+  font-size: 16px;
+  color: rgb(167, 167, 167);
+  padding-left: 2px;
+}
+.big_container button {
+  width: 40%;
+  height: 45px;
+  margin: 15px auto;
+  display: block;
+  justify-content: center;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: white;
+  transition: 0.6s;
+  color: #3894a3;
+}
+.loging {
+  height: 470px;
+  background-color: #fff;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: 0.9s ease-in-out;
+}
+.loging label {
+  color: #3894a3;
+  padding-top: 15px;
+  transform: scale(0.7);
+}
+#check:checked ~ .loging {
+  transform: translateY(-525px);
+}
+#check:checked ~ .loging label {
+  transform: scale(1);
+}
+#check:checked ~ .signup label {
+  transform: scale(0.7);
+}
+input[name="mail2"],
+input[name="pass2"] {
+  border: 1px solid #3894a37d;
+}
+input[name="mail2"]::placeholder,
+input[name="pass2"]::placeholder {
+  padding-left: 3px;
+  font-size: 16px;
+}
+button[name="btn"] {
+  background-color: #3894a3;
+  color: white;
+  margin-top: 25px;
+}
+button[name="btn"]:hover {
+  background-color: transparent;
+  color: #3894a3;
+  border: 1px solid #3894a3;
+}
+/*-----------------------------media-----------------------------------*/
+@media (max-width: 1200px) {
+  .connect_img {
+    display: none;
+  }
+  .container {
+    margin-top: 50px;
+    width: 450px;
+  }
+}
+@media (max-width: 477px) {
+  .container {
+    width: 365px;
+  }
+}
