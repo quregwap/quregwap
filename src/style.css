@@ -1234,3 +1234,21 @@ p {
     width: 1000px;
   }
   
+  .cartbutton{
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+  }
+  .zzz {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#2f414f;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .zzz:hover{
+    background-color: #3894a3;
+    transition: all .3s ease-in;
+  }

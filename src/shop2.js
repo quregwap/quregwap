@@ -75,9 +75,7 @@ function Shop2() {
           </div>
           <h4>1 500 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/2.jpg" />
@@ -93,9 +91,7 @@ function Shop2() {
           </div>
           <h4>1 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/3.jpg" />
@@ -111,9 +107,7 @@ function Shop2() {
           </div>
           <h4>2 400 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/4.jpg" />
@@ -129,9 +123,7 @@ function Shop2() {
           </div>
           <h4>700 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/5.jpg" />
@@ -147,9 +139,7 @@ function Shop2() {
           </div>
           <h4>1 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/6.jpg" />
@@ -165,9 +155,7 @@ function Shop2() {
           </div>
           <h4>24 500 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/7.jpg" />
@@ -183,9 +171,7 @@ function Shop2() {
           </div>
           <h4>13 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/8.jpg" />
@@ -201,9 +187,7 @@ function Shop2() {
           </div>
           <h4>20 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/9.jpg" />
@@ -219,9 +203,7 @@ function Shop2() {
           </div>
           <h4>9 300 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/10.jpg" />
@@ -237,9 +219,7 @@ function Shop2() {
           </div>
           <h4>1 300 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/11.jpg" />
@@ -255,9 +235,7 @@ function Shop2() {
           </div>
           <h4>2 400 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/12.jpg" />
@@ -273,9 +251,7 @@ function Shop2() {
           </div>
           <h4>3 449 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/13.jpg" />
@@ -291,9 +267,7 @@ function Shop2() {
           </div>
           <h4>9 499 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/14.jpg" />
@@ -309,9 +283,7 @@ function Shop2() {
           </div>
           <h4>4 499 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/15.jpg" />
@@ -327,9 +299,7 @@ function Shop2() {
           </div>
           <h4>7 999 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/17.jpg" />
@@ -347,9 +317,7 @@ function Shop2() {
           </div>
           <h4>6 999 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/s9.jpg" />
@@ -365,9 +333,7 @@ function Shop2() {
           </div>
           <h4>35 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/s10.jpg" />
@@ -383,9 +349,7 @@ function Shop2() {
           </div>
           <h4>12 000 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/s11.jpg" />
@@ -401,9 +365,7 @@ function Shop2() {
           </div>
           <h4>5 555 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
       <div className="pro">
         <img src="images/product/s12.jpg" />
@@ -419,9 +381,7 @@ function Shop2() {
           </div>
           <h4>3 700 ₽</h4>
         </div>
-        <a href="#">
-          <i className="fas fa-shopping-cart cart" />
-        </a>
+        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
     </div>
   </section>
