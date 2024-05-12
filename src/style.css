@@ -176,7 +176,7 @@ p {
     color: #e5e5e5;
 }
 #main .left input {
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/button3.png");
+    background-image: url("./images/button3.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,7 +346,7 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/black-friday-sales-assortment-with-copy-space.jpg");
+    background-image: url("./images/banner/black-friday-sales-assortment-with-copy-space.jpg");
     width: 100%;
     height: 32vh;
     background-position: center;
@@ -397,7 +397,7 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: start;
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/arrangement-black-friday-elements-black-background-with-copy-space.jpg");
+    background-image: url("./images/banner/arrangement-black-friday-elements-black-background-with-copy-space.jpg");
     min-width: 650px;
     height: 50vh;
     background-position: center;
@@ -409,7 +409,7 @@ p {
     transition: 0.5s;
 }
 #small-banner .bb2 {
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/black-friday-elements-assortment.jpg");
+    background-image: url("./images/banner/black-friday-elements-assortment.jpg");
 }
 #small-banner h4 {
     color: white;
@@ -450,7 +450,7 @@ p {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/b14.png");
+    background-image: url("./images/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #3894a3;
@@ -509,7 +509,7 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/shirt-mockup-concept-with-plain-clothing (2).jpg");
+    background-image: url("./images/banner/shirt-mockup-concept-with-plain-clothing (2).jpg");
     width: 100%;
     height: 35vh;
     background-position: center;
@@ -619,7 +619,7 @@ p {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/banner/banner.png");
+    background-image: url("./images/banner/banner.png");
     width: 100%;
     height: 35vh;
     background-position: center;
@@ -672,7 +672,7 @@ p {
     white-space: nowrap;
 }
 #caption.cart-caption {
-    background-image: url("C:/Users/mishaesya/Desktop/22/my-app/public/images/6234411.jpg");
+    background-image: url("./images/6234411.jpg");
 }
 #cart img {
     width: 75px;
