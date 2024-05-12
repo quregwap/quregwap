@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.704ca329.css",
+    "main.js": "/static/js/main.84065d7c.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/black-friday-sales-assortment-with-copy-space.jpg": "/static/media/black-friday-sales-assortment-with-copy-space.0e8f6a1e4bb3e4829da6.jpg",
+    "static/media/shirt-mockup-concept-with-plain-clothing (2).jpg": "/static/media/shirt-mockup-concept-with-plain-clothing (2).45422e1e68e1a150baf3.jpg",
+    "static/media/cc.jpg": "/static/media/cc.3124afa68d3ca441a56b.jpg",
+    "static/media/arrangement-black-friday-elements-black-background-with-copy-space.jpg": "/static/media/arrangement-black-friday-elements-black-background-with-copy-space.cc395bb84bfd42d833bb.jpg",
+    "static/media/6234411.jpg": "/static/media/6234411.061f2494d3d52d0b692a.jpg",
+    "static/media/black-friday-elements-assortment.jpg": "/static/media/black-friday-elements-assortment.f1240436adbd7aab66b8.jpg",
+    "static/media/banner.png": "/static/media/banner.d27d94d3b18765a0d795.png",
+    "static/media/b14.png": "/static/media/b14.b3fa0d36c31c33d909c6.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.704ca329.css.map": "/static/css/main.704ca329.css.map",
+    "main.84065d7c.js.map": "/static/js/main.84065d7c.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.704ca329.css",
+    "static/js/main.84065d7c.js"
+  ]
+}
