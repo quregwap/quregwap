@@ -106,16 +106,16 @@ section.left .contactInfo {
   text-transform: uppercase;
   color: #3894a3;
 }
-section.left .socialMedia {
+section.left .socLogo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin: 22px 0px 20px;
 }
-.socialMedia a {
-  width: 37px;
-    height: 37px;
+.socLogo a {
+  width: 40px;
+    height: 40px;
     text-decoration: none;
     text-align: center;
     margin-right: 12px;
@@ -123,19 +123,19 @@ section.left .socialMedia {
     background-color: #3894a3;
     transition: all 0.4s ease 0s;
 }
-.socialMedia a i {
+.socLogo a i {
   color: #ffff;
   font-size: 18px;
   line-height: 35px;
   border: 1px solid transparent;
 }
-.socialMedia a:hover {
+.socLogo a:hover {
   transform: translateY(-7px);
   transition: 0.5s;
   border: 1px solid #3894a3;
   background-color: transparent;
 }
-.socialMedia a:hover i {
+.socLogo a:hover i {
   color: #3894a3;
 }
 
@@ -272,4 +272,71 @@ section.left .socialMedia {
     margin-bottom: 20px;
     color: #3894a3;
   }
+}
+
+.iconfacebook {
+  fill: aliceblue;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  transform: translateY(4px);
+}
+
+.iconinstagram {
+  fill: aliceblue;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  transform: translateY(4px);
+}
+
+.icontwitter {
+  fill: aliceblue;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  transform: translateY(4px);
+}
+
+.iconvk {
+  fill: aliceblue;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  transform: translateY(4px);
+}
+
+.iconmobile {
+  fill: #3894a3;
+  position: absolute;
+  top: 5px;
+  left: 5px;  
+  width: 30px;
+  height: 30px;
+}
+
+.iconevelope {
+  fill: #3894a3;
+  position: absolute;
+  top: 5px;
+  left: 6px;  
+  width: 30px;
+  height: 30px;
+}
+
+.iconmap {
+  fill: #3894a3;
+  position: absolute;
+  top: 5px;
+  left: 6px;  
+  width: 30px;
+  height: 30px;
 }

@@ -1216,6 +1216,10 @@ p {
     margin-right: -10px;
   }
   
+ .input-zov:focus{
+    outline: none;
+ }
+
   .buttonzov {
     border: none;
     background-color: #1363DF;
