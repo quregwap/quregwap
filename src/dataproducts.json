@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "title": "Sport shorts",
+      "brand": "Adidas",
+      "img": "images/product/1.jpg",
+      "price":"1 500 ₽"
+    },
+    {
+      "id": 2,
+      "title": "Swetty pants",
+      "brand": "Balenciaga",
+      "img": "images/product/2.jpg",
+      "price":"1 000 ₽"
+    },    {
+      "id": 3,
+      "title": "Swim shorts",
+      "brand": "Adidas",
+      "img": "images/product/3.jpg",
+      "price":"2 400 ₽"
+    },    {
+      "id": 4,
+      "title": "Home style shorts",
+      "brand": "Adidas",
+      "img": "images/product/4.jpg",
+      "price":"700 ₽"
+    },    {
+      "id": 5,
+      "title": "Home style shorts vol.2",
+      "brand": "Adidas",
+      "img": "images/product/5.jpg",
+      "price":"1 000 ₽"
+    },    {
+      "id": 6,
+      "title": "Cream Jacket",
+      "brand": "Maison Margiela",
+      "img": "images/product/6.jpg",
+      "price":"24 500 ₽"
+    },    {
+      "id": 7,
+      "title": "Smoke Jacket",
+      "brand": "Maison Margiela",
+      "img": "images/product/7.jpg",
+      "price":"13 000 ₽"
+    },    {
+      "id": 8,
+      "title": "Grey Official Jacket",
+      "brand": "Maison Margiela",
+      "img": "images/product/8.jpg",
+      "price":"20 000 ₽"
+    },    {
+      "id": 9,
+      "title": "Office Shirt",
+      "brand": "True Religion",
+      "img": "images/product/9.jpg",
+      "price":"9 300 ₽"
+    },    {
+      "id": 10,
+      "title": "Cotton T-shirt",
+      "brand": "Adidas",
+      "img": "images/product/10.jpg",
+      "price":"1 300 ₽"
+    },     {
+      "id": 11,
+      "title": "Cream shirt",
+      "brand": "Adidas",
+      "img": "images/product/11.jpg",
+      "price":"2 400 ₽"
+    },{
+      "id": 12,
+      "title": "Checkred Shirt",
+      "brand": "Adidas",
+      "img": "images/product/12.jpg",
+      "price":"3 449 ₽"
+    },{
+      "id": 13,
+      "title": "Pogchamp shirt",
+      "brand": "Burberry",
+      "img": "images/product/13.jpg",
+      "price":"9 499 ₽"
+    },{
+      "id": 14,
+      "title": "Jeans Cream shirt",
+      "brand": "Adidas",
+      "img": "images/product/14.jpg",
+      "price":"4 499 ₽"
+    },{
+      "id": 15,
+      "title": "Shit Shirt",
+      "brand": "Raf Simons",
+      "img": "images/product/15.jpg",
+      "price":"7 999 ₽"
+    },{
+      "id": 16,
+      "title": "Shit Shirt",
+      "brand": "Raf Simons",
+      "img": "https://media.discordapp.net/attachments/1203493840523108372/1239432306494537799/16.jpg?ex=6642e6c9&is=66419549&hm=901b29e8ce2f85e7cefab776600baae51b58a4a8b4b819b241c4d0917a0ae0d4&=&format=webp",
+      "price":"6 999 ₽"
+    }, {
+      "id": 17,
+      "title": "StreetWear Jeans",
+      "brand": "Amiri",
+      "img": "https://media.discordapp.net/attachments/1203493840523108372/1239432305894752266/17.jpg?ex=6642e6c9&is=66419549&hm=ce940108cd88554d67f0828d7a79468142f392ae73cc2407da210d406b568eee&=&format=webp",
+      "price":"35 000 ₽"
+    },{
+      "id": 18,
+      "title": "EA7",
+      "brand": "Armani",
+      "img": "https://media.discordapp.net/attachments/1203493840523108372/1239432306167517205/18.jpg?ex=6642e6c9&is=66419549&hm=a138c63a99f9f83103154457eeecd34d3c404f7cd2452a35d6f6f89bb466493e&=&format=webp",
+      "price":"12 000 ₽"
+    },{
+      "id": 19,
+      "title": "Cartoon Astronout Sports trousers",
+      "brand": "Adidas",
+      "img": "https://media.discordapp.net/attachments/1203493840523108372/1239432305039249453/19.jpg?ex=6642e6c9&is=66419549&hm=75471560e3f9a77dab9cdf4dfac57c24fb9152e5412bd97595918110bdf428c7&=&format=webp",
+      "price":"5 555 ₽"
+    },{
+      "id": 20,
+      "title": "Sports trousers",
+      "brand": "Adidas",
+      "img": "https://media.discordapp.net/attachments/1203493840523108372/1239431457156370514/d1.jpg?ex=6642e5fe&is=6641947e&hm=bb0985466286946da2e6506001949bf70b96afc667e1e7447fca280881539c37&=&format=webp",
+      "price":"3 700 ₽"
+    }
+  ]

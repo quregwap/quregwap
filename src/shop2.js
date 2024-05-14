@@ -1,10 +1,17 @@
+import datamain from "./dataproducts.json"
 import { Footer } from './components/footer/footer';
 import './style.css';
 import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 function Shop2() {
   const handleClick = () => {
     alert('Вы подписаны на рассылку');
   }  
+  const [stockData, setStockData] = useState([]);
+
+  const handleClickObject = () => {
+    setStockData(datamain);
+  };
   return (
         <>
   <meta charSet="UTF-8" />
@@ -61,11 +68,12 @@ function Shop2() {
   </section>
   <section id="product" className="section-p1">
     <div className="container">
+    {datamain.map((result) => (
       <div className="pro">
-        <img src="images/product/1.jpg" />
+        <img src={result.img} />
         <div className="description">
-          <span>Adidas</span>
-          <h5>Sport shorts</h5>
+          <span>{result.brand}</span>
+          <h5>{result.title}</h5>
           <div className="rate">
             <i className="fas fa-star" />
             <i className="fas fa-star" />
@@ -73,316 +81,13 @@ function Shop2() {
             <i className="fas fa-star" />
             <i className="fas fa-star" />
           </div>
-          <h4>1 500 ₽</h4>
+          <h4>{result.price}</h4>
         </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
+        <div className='cartbutton'><button onClick={handleClickObject} className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
       </div>
-      <div className="pro">
-        <img src="images/product/2.jpg" />
-        <div className="description">
-          <span>Balenciaga</span>
-          <h5>Swetty pants</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>1 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/3.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Swim shorts</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>2 400 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/4.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Home style shorts</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>700 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/5.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Home style shorts vol.2</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>1 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/6.jpg" />
-        <div className="description">
-          <span>Maison Margiela</span>
-          <h5>Cream Jacket</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>24 500 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/7.jpg" />
-        <div className="description">
-          <span>Maison Margiela</span>
-          <h5>Smoke Jacket</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>13 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/8.jpg" />
-        <div className="description">
-          <span>Maison Margiela</span>
-          <h5>Grey Official Jacket</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>20 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/9.jpg" />
-        <div className="description">
-          <span>True Religion</span>
-          <h5>Office Shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>9 300 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/10.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Cotton T-shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>1 300 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/11.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Cream shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>2 400 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/12.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Checkred Shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>3 449 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/13.jpg" />
-        <div className="description">
-          <span>Burberry</span>
-          <h5>Pogchamp shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>9 499 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/14.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Jeans Cream shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>4 499 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/15.jpg" />
-        <div className="description">
-          <span>Raf Simons</span>
-          <h5>Shit Shirt</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>7 999 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/17.jpg" />
-        <div className="description">
-          <span>Raf Simons</span>
-          <h5>
-            Shit Shirt <vol className={2} />
-          </h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>6 999 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/s9.jpg" />
-        <div className="description">
-          <span>Amiri</span>
-          <h5>StreetWear Jeans</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>35 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/s10.jpg" />
-        <div className="description">
-          <span>Armani</span>
-          <h5>EA7</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>12 000 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/s11.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Cartoon Astronout Sports trousers</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>5 555 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
-      <div className="pro">
-        <img src="images/product/s12.jpg" />
-        <div className="description">
-          <span>Adidas</span>
-          <h5>Sports trousers</h5>
-          <div className="rate">
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-            <i className="fas fa-star" />
-          </div>
-          <h4>3 700 ₽</h4>
-        </div>
-        <div className='cartbutton'><button className='zzz'><svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24" ><path d="M21 4H2v2h2.3l3.28 9a3 3 0 0 0 2.82 2H19v-2h-8.6a1 1 0 0 1-.94-.66L9 13h9.28a2 2 0 0 0 1.92-1.45L22 5.27A1 1 0 0 0 21.27 4 .84.84 0 0 0 21 4zm-2.75 7h-10L6.43 6h13.24z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg></button></div>
-      </div>
+                ))}
+      
+      
     </div>
   </section>
   <section id="page_number" className="section-p1">

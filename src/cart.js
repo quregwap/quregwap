@@ -3,7 +3,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 function Cart(){
   const handleClick = () => {
-    alert('Вы подписаны на рассылку');
+    alert('Купон применен');
   } 
     return(<>
         <meta charSet="UTF-8" />
@@ -81,11 +81,11 @@ function Cart(){
                   <img src="images/product/f1.jpg" />
                 </td>
                 <td>1</td>
-                <td>$110</td>
+                <td>10 000 ₽</td>
                 <td>
                   <input type="number" defaultValue={1} />
                 </td>
-                <td>$110.00</td>
+                <td>10 000 ₽</td>
               </tr>
               <tr>
                 <td>
@@ -97,11 +97,11 @@ function Cart(){
                   <img src="images/product/s7.jpg" />
                 </td>
                 <td>2</td>
-                <td>$250</td>
+                <td>15 000 ₽</td>
                 <td>
                   <input type="number" defaultValue={1} />
                 </td>
-                <td>$250.00</td>
+                <td>15 000 ₽</td>
               </tr>
               <tr>
                 <td>
@@ -113,11 +113,11 @@ function Cart(){
                   <img src="images/product/s13.jpg" />
                 </td>
                 <td>3</td>
-                <td>$90</td>
+                <td>20 000 ₽</td>
                 <td>
                   <input type="number" defaultValue={1} />
                 </td>
-                <td>$90.00</td>
+                <td>20 000 ₽</td>
               </tr>
               <tr>
                 <td>
@@ -129,11 +129,11 @@ function Cart(){
                   <img src="images/product/s3.jpg" />
                 </td>
                 <td>Nike Shoes</td>
-                <td>$115</td>
+                <td>25 000 ₽</td>
                 <td>
                   <input type="number" defaultValue={1} />
                 </td>
-                <td>$115.00</td>
+                <td>25 000 ₽</td>
               </tr>
             </tbody>
           </table>
